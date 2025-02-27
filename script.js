@@ -1,4 +1,4 @@
-const SERVER_URL = "https://olivesigne.com/hiddenpicture";
+const SERVER_URL = "https://30775bf6-aed9-4d20-807e-1f4d00170c25-00-1m8w4x9z10ikb.riker.replit.dev/";
 let username = localStorage.getItem("username");
 let map;
 let markers = {};
