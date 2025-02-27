@@ -10,13 +10,13 @@ function sendLocation() {
             let lon = position.coords.longitude;
             L.marker([lat, lon]).addTo(map).bindPopup("Tu es ici").openPopup();
 
-            let response = await fetch("https://hiddenpicture.olivesigne.com/update_location", {
+            let response = await fetch("https://30775bf6-aed9-4d20-807e-1f4d00170c25-00-1m8w4x9z10ikb.riker.replit.dev/update_location", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
                     latitude: lat,
                     longitude: lon,
-                    username: "ton_username"
+                    username: "nico"
                 })
             });
 
